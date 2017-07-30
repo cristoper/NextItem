@@ -32,16 +32,18 @@
                                 <rect key="frame" x="16" y="40" width="288" height="508"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="top" reversesTitleShadowWhenHighlighted="YES" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hyf-m3-m1w">
-                                        <rect key="frame" x="0.0" y="0.0" width="288" height="39"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                        <state key="normal" image="NextItem1"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="288" height="70"/>
+                                        <fontDescription key="fontDescription" name="AmericanTypewriter-Bold" family="American Typewriter" pointSize="24"/>
+                                        <state key="normal" title="NextItem...">
+                                            <color key="titleColor" red="0.45489044099999998" green="0.26595215529999999" blue="0.1158351249" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="titleShadowColor" red="0.1924578585" green="0.1125206812" blue="0.049008240379999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
                                         <connections>
                                             <action selector="NextItemControl:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NvV-dm-cDY"/>
                                         </connections>
                                     </button>
-                                    <textView clipsSubviews="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UOb-aC-Y2n" userLabel="TextViewItem" propertyAccessControl="none">
-                                        <rect key="frame" x="0.0" y="239" width="288" height="269"/>
-                                        <string key="text">1Don't give into the dark side. Do something! 2Don't give into the dark side. Do something! 3Don't give into the dark side. Do something! 4Don't give into the dark side. Do something!5 Don't give into the dark side. Do something!</string>
+                                    <textView clipsSubviews="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="Don't give into the dark side. Do something!" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UOb-aC-Y2n" userLabel="TextViewItem" propertyAccessControl="none">
+                                        <rect key="frame" x="0.0" y="270" width="288" height="238"/>
                                         <color key="textColor" red="0.69999999999999996" green="0.20000000000000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -78,7 +80,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="NextItem1" width="128" height="34"/>
         <image name="background" width="640" height="1136"/>
     </resources>
 </document>
