@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    // Stored property references the ItemArray object which serves as the model for our data
+    // Stored property references the ItemArray object which serves as the data source for our view controller
     // we instantiate the ItemArray in the viewDidLoad method
     var items: ItemArray? = nil
     
@@ -27,7 +27,7 @@ class ViewController: UIViewController {
         TextViewItem.layer.borderColor = borderColor.cgColor
         TextViewItem.layer.cornerRadius = 5.0
         
-        // Instantiate ItemArray model object
+        // Instantiate ItemArray data source object
         items = ItemArray(plistName: "items")
     }
     
