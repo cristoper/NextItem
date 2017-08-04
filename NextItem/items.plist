@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>Do nothing</string>
+	<string>Respond to a waiting email</string>
+	<string>Work on 505 yard</string>
+	<string>Hit the prayer closet for 15 minutes</string>
+	<string>Sing a joyful song</string>
+	<string>Sing a sad song</string>
+	<string>Take a walk through the hood</string>
+	<string>Drink a liter (of water)</string>
+	<string>Eat some veggies</string>
+	<string>Read Kindle for an hour</string>
+	<string>Read current hard copy book(s) for an hour</string>
+	<string>Dust / vacuum / mop / windows / deck 505</string>
+	<string>Listen to Spanish lesson</string>
+	<string>Play 1/2 hour guitar (consider Sólo le pido and Jesu, Joy of Man&apos;s Desire)</string>
+	<string>Record guitar song for the Great Collection WIP</string>
+	<string>Write 400 words in novel</string>
+	<string>Write 200 words in novel</string>
+	<string>Browse a copy of The Rio Grande Sun</string>
+	<string>Read New Mexico history</string>
+	<string>Run 10 miles</string>
+	<string>Run a 10k</string>
+	<string>Run a 5k</string>
+	<string>Run 30 minute intervals</string>
+	<string>Run 1 fast mile</string>
+	<string>Motion is lotion: do ten minutes of PT, right now</string>
+	<string>Drop down and give me 20 pushups and 20 sit-ups, now&quot;</string>
+	<string>Call someone from Contacts, someone you haven&apos;t spoken with in the last month</string>
+</array>
+</plist>
