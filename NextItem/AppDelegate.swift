@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  NextItem
 //
-//  Created by 3039109904LB on 7/16/17.
+//  Created by LouisDotCom on 7/16/17.
 //  Copyright © 2017 LB. All rights reserved.
 //
 
