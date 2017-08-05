@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class NextItemViewController: UIViewController {
     
     // Stored property references the ItemArray object which serves as the data source for our view controller
     // we instantiate the ItemArray in the viewDidLoad method
