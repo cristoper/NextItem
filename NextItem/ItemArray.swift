@@ -11,7 +11,7 @@ struct ItemArray {
     
     // This is a stored property (whose type is an Array of Strings) which will store the
     // list of items in memory once they are read from the plist file
-    var items: [String] = []
+    var data: [String] = []
 
     init (plistName name: String = "items") {
         
@@ -23,7 +23,7 @@ struct ItemArray {
         // Read the file into a variable.
         // the return type of the FileManager contents() method is an NSData object
         // which is basically a bunch of bytes
-        let data = FileManager.default.contents(atPath: path)
+        let plistContents = FileManager.default.contents(atPath: path)
         
         // the propertyList() method throws an exception when it encounters an error,
         // so we wrap it in a do-catch construct
@@ -31,8 +31,8 @@ struct ItemArray {
             // The propertyList method converts our data into an Array
             // we cast it to an array of strings using the 'as' type casting operator:
             // https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/TypeCasting.html
-            try items = PropertyListSerialization.propertyList(
-                from: data!,
+            try data = PropertyListSerialization.propertyList(
+                from: plistContents!,
                 options:PropertyListSerialization.MutabilityOptions.mutableContainers,
                 format: nil) as! [String]
         } catch let e as NSError {
@@ -42,10 +42,10 @@ struct ItemArray {
     }
     
     func randomItem() -> String {
-        let numItems = UInt32(items.count)
+        let numItems = UInt32(data.count)
         let randomIndex = Int(arc4random_uniform(numItems))
         
-        return items[randomIndex]
+        return data[randomIndex]
     }
 }
 
